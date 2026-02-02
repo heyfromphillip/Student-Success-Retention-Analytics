@@ -16,6 +16,11 @@ The "Student Success & Retention Analytics Hub" is a strategic management tool d
 
 <img width="659" height="364" alt="image" src="https://github.com/user-attachments/assets/7337bb02-4f44-4c59-8035-5418db35abae" />
 
+## 🚀 How to Use
+1. **Download** the `Retention_dashboard.pbix` file from this repository.
+2. **Open** it in Power BI Desktop to explore interactive filters.
+3. **Navigate** using the custom Sidebar Panel to filter by Course, Gender, or Employment status.
+
 ---
 
 ## 🛠️ Technical Workflow
@@ -38,8 +43,3 @@ Before importing into Power BI, I performed feature engineering in Excel to crea
 
 
 ---
-
-## 🚀 How to Use
-1. **Download** the `Retention_dashboard.pbix` file from this repository.
-2. **Open** it in Power BI Desktop to explore interactive filters.
-3. **Navigate** using the custom Sidebar Panel to filter by Course, Gender, or Employment status.
