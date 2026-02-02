@@ -5,6 +5,8 @@ The "Student Success & Retention Analytics Hub" is a strategic management tool d
 **Who is most at risk?** Identifying students likely to drop out before completing their program.
 **Where are the equity gaps?** Finding disparities in success between "Widening Participation" (WP) students and their peers.
 **Which courses need intervention?** Pinpointing specific subjects where pass rates and grades are falling below standards.
+<img width="1318" height="728" alt="image" src="https://github.com/user-attachments/assets/7337bb02-4f44-4c59-8035-5418db35abae" />
+
 
 ---
 
