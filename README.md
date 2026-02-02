@@ -5,7 +5,6 @@ The "Student Success & Retention Analytics Hub" is a strategic management tool d
 **Who is most at risk?** Identifying students likely to drop out before completing their program.
 **Where are the equity gaps?** Finding disparities in success between "Widening Participation" (WP) students and their peers.
 **Which courses need intervention?** Pinpointing specific subjects where pass rates and grades are falling below standards.
-<img width="1318" height="728" alt="image" src="https://github.com/user-attachments/assets/7337bb02-4f44-4c59-8035-5418db35abae" />
 
 
 ---
@@ -14,6 +13,8 @@ The "Student Success & Retention Analytics Hub" is a strategic management tool d
 **Retention Overview:** The current retention rate stands at **49%**, with a **7% gap** identified in the Widening Participation group.
 **Departmental Performance:** **Journalism** leads with the highest pass rate (**70.4%**), while **Nursing** requires the most intervention (**54.8%**).
 **Geographic Risk:** **Rural students** show a higher density of "High Risk" status compared to Urban counterparts.
+
+<img width="659" height="364" alt="image" src="https://github.com/user-attachments/assets/7337bb02-4f44-4c59-8035-5418db35abae" />
 
 ---
 
