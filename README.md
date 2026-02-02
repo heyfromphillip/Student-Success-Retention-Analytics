@@ -1,42 +1,44 @@
-Project Overview
-The "Student Success & Retention Analytics Hub" is a strategic management tool designed to help university administrators improve student outcomes. This project answers three vital questions:
-1.	Who is most at risk? 
-Identifying students likely to drop out before completing their program.
-2.	Where are the equity gaps? 
-Finding disparities in success between "Widening Participation" (WP) students and their peers.
-3.	Which courses need intervention? 
-Pinpointing specific subjects where pass rates and grades are falling below standards.
-The Data
-The dataset was sourced from Kaggle and contains demographic, socioeconomic, and academic performance metrics for the year 2021.
-Key Features:
-•	Demographics: Age, Gender, Marital Status, and Residence Location (Urban, Suburban, Rural).
-•	Socioeconomic Factors: Parental Education, Income Level, and Regional Economic indicators (GDP, Inflation).
-•	Academic Metrics: Units Enrolled, Approved, and Evaluated, alongside GPA-scale Average Grades.
-Excel (Data Engineering)
-Before importing into Power BI, I performed feature engineering in Excel to create more meaningful business metrics:
-Pass Rate %: Calculated as (Approved Units / Evaluated Units) * 100, capped at 100%.
-Student Status: Categorized students as "Continued" or "Withdrew".
-Academic Performance: Binned GPA scores into "High" (≥3.5), "Medium" (≥2.5), and "Low".
-Student Risk Profile: A logic-based risk assessment:
-	High: Students who already withdrew.
-	Medium: Active students with a Pass Rate < 75% ("At Risk").
-	Low: Active students with a Pass Rate ≥ 75%.
-WP Indicator: Identified the "Widening Participation" (WP) group based on parental education, employment, and rural residency.
-Power BI Workflow
-1. Data Transformation (Power Query)
-•	Cleaned and profiled the data to ensure accuracy.
-•	Standardized text formats and handled null values.
-2. Data Modelling & DAX
-•	Built a star-schema inspired model.
-Key Measures Created:
-•	Retention Rate %: Using DIVIDE and CALCULATE to track the percentage of continued students.
-•	WP Retention Gap: Measuring the difference in success between WP and Non-WP groups.
-•	Average Pass Rate: Aggregate performance across departments.
-3. Visualization Strategy
-•	KPI Cards: High-level executive summary of retention and risk.
-•	Performance Matrix (Scatter Plot): Used a quadrant analysis to compare Pass Rate vs. Average Grade by course.
-•	Risk Treemap: A nested visualization showing the distribution of student risk by geographic location.
-Key Insights
-•	Retention Overview: The current retention rate stands at 49%, with a 7% gap identified in the Widening Participation group.
-•	Departmental Performance: Journalism leads with the highest pass rate (70.4%), while Nursing requires the most intervention (54.8%).
-•	Geographic Risk: Rural students show a higher density of "High Risk" status compared to Urban counterparts.
+# Student Success & Retention Analytics Hub 🎓
+
+## 📌 Project Overview
+The **Student Success & Retention Analytics Hub** is a strategic management tool designed to help university administrators improve student outcomes. This project answers three vital questions:
+1. **Who is most at risk?** Identifying students likely to drop out before completing their program.
+2. **Where are the equity gaps?** Finding disparities in success between "Widening Participation" (WP) students and their peers.
+3. **Which courses need intervention?** Pinpointing specific subjects where pass rates and grades are falling below standards.
+
+---
+
+## 🌟 The STAR Journey
+
+### **Situation**
+University retention is a complex challenge influenced by academics, geography, and socioeconomic status. With a 2021 dataset of 500 students, the goal was to find the "why" behind student dropouts which were previously hidden in raw records.
+
+### **Task**
+My objective was to transform raw demographic and academic records into a single "Source of Truth" to prioritize institutional support and identify at-risk patterns.
+
+### **Action**
+I executed a multi-stage data lifecycle to build this solution:
+* **Data Engineering (Excel):** Engineered six strategic metrics to add business meaning, including a **WP Indicator** to track equity and a **3-tier Risk Profile** (High, Medium, Low).
+* **Data Modeling (Power BI):** Built a star-schema inspired model and created advanced DAX measures like **Retention Rate %** and **WP Retention Gap**.
+* **Visual Logic:** Implemented a **Quadrant Performance Matrix** (Scatter Plot) and a **Risk Treemap** to visualize geographic vulnerabilities.
+* **User Experience:** Designed an interactive sidebar with a **"Clear all slicers"** reset functionality to ensure an intuitive, app-like experience.
+
+### **Result**
+The final dashboard provides high-impact insights for institutional change:
+* **Equity Insight:** Identified a **7% Retention Gap** in the Widening Participation (WP) group.
+* **Course Optimization:** Pinpointed **Journalism** as the top performer (**70.4%**) and **Nursing** as the highest priority for review (**54.8%**).
+* **Geographic Risk:** Discovered a higher density of "High Risk" students in **Rural** areas compared to Urban centers.
+
+---
+
+## 🛠️ Technical Implementation
+
+### **1. Data Preparation (Excel)**
+Before importing to Power BI, I created meaningful KPIs:
+* **Pass Rate %:** `(Approved Units / Evaluated Units) * 100`.
+* **Academic Performance:** Binned GPA into **High (≥3.5)**, **Medium (≥2.5)**, and **Low**.
+* **Student Risk:** Categorized based on withdrawal status and pass rates (<75% for "At Risk").
+* **WP Indicator:** Flagged students based on parental education, employment, and rural residency.
+
+### **2. Power BI Workflow**
+* **Power
