@@ -21,7 +21,7 @@ I executed a multi-stage data lifecycle to build this solution:
 * **Data Engineering (Excel):** Engineered six strategic metrics to add business meaning, including a **WP Indicator** to track equity and a **3-tier Risk Profile** (High, Medium, Low).
 * **Data Modeling (Power BI):** Built a star-schema inspired model and created advanced DAX measures like **Retention Rate %** and **WP Retention Gap**.
 * **Visual Logic:** Implemented a **Quadrant Performance Matrix** (Scatter Plot) and a **Risk Treemap** to visualize geographic vulnerabilities.
-* **User Experience:** Designed an interactive sidebar with a **"Clear all slicers"** reset functionality to ensure an intuitive, app-like experience.
+
 
 ### **Result**
 The final dashboard provides high-impact insights for institutional change:
