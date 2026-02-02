@@ -34,9 +34,10 @@ Before importing into Power BI, I performed feature engineering in Excel to crea
 * **WP Indicator:** Identified the "Widening Participation" (WP) group based on parental education, employment, and residency.
 
 ### 2. Analytics & UI (Power BI)
-**Data Modeling:** Built a star-schema inspired model with custom measures.
-**DAX Metrics:** Created key measures including **Retention Rate %**, **WP Retention Gap**, and **Average Pass Rate**.
-**Visual Strategy:** * **KPI Cards:** High-level summary of retention and risk metrics.
+* **Data Modeling:** Built a star-schema inspired model with custom measures.
+* **DAX Metrics:** Created key measures including **Retention Rate %**, **WP Retention Gap**, and **Average Pass Rate**.
+* **Visual Strategy:** 
+    * **KPI Cards:** High-level summary of retention and risk metrics.
     * **Performance Matrix:** Used quadrant analysis to compare **Pass Rate vs. Average Grade** by course.
     * **Risk Treemap:** Visualized the distribution of student risk by geographic location.
 
